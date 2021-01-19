@@ -201,7 +201,7 @@ body {
   width: 216px;
   height: 200px;
   position: absolute;
-  background-image: url(/image/discount.png);
+  background-image: url(image/discount.png);
   background-position: right 0;
   background-size: auto;
   background-repeat: no-repeat;
@@ -255,14 +255,14 @@ body {
   width: 14px;
   height: 14px;
   margin: 0 4px;
-  background-image: url(/image/start-empty.png);
+  background-image: url(image/start-empty.png);
   background-size: cover;
   background-repeat: no-repeat;
   transition: 200ms ease;
 }
 
 .product .stars .star:hover, .product .stars .star.full {
-  background-image: url(/image/star-full.png);
+  background-image: url(image/star-full.png);
 }
 
 /* Produtos */
@@ -398,13 +398,13 @@ body {
 .footer .container .info .corebiz {
   width: 76px;
   height: 18px;
-  background-image: url(/image/logo-corebiz-footer.png);
+  background-image: url(image/logo-corebiz-footer.png);
 }
 
 .footer .container .info .vtex {
   width: auto;
   height: 19px;
-  background-image: url(/image/vtex.png);
+  background-image: url(image/vtex.png);
 }
 
 .footer .container .info .button:first-child {
@@ -412,13 +412,13 @@ body {
 }
 
 .mail {
-  background-image: url(/image/email.png);
+  background-image: url(image/email.png);
   background-position: 10px 10px;
   background-repeat: no-repeat;
 }
 
 .talk {
-  background-image: url(/image/fale-conosco.png);
+  background-image: url(image/fale-conosco.png);
   background-position: 10px 15px;
   background-repeat: no-repeat;
 }
@@ -486,14 +486,14 @@ body {
   }
   .header .container .part-two .user {
 
-    background-image: url(/image/user.png);
+    background-image: url(image/user.png);
   }
   .header .container .menu {
     height: 24px;
     width: 24px;
     display: initial;
     margin-right: 8px;
-    background-image: url(/image/menu.png);
+    background-image: url(image/menu.png);
   }
   .header .container .account {
     display: none;
