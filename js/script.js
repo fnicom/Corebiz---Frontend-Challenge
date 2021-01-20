@@ -2,13 +2,13 @@ const API = "https://corebiz-test.herokuapp.com/api/v1/products";
 let produtos = document.querySelector(".produtos");
 
 function makeprodutos(products) {
-    for(var i = 0; i < products.length ; i++) {
+    for(let i = 0; i < products.length ; i++) {
         const productName = products[i].productName;
         const image = products[i].imageUrl;
         const stars = products[i].stars;
         const lastPrice = products[i].listPrice;
         const price = products[i].price;
-        const quatity = products[i].installments["quantity"];
+        const quantity = products[i].installments["quantity"];
         const value = products[i].installments.value;
         const div = document.createElement('div');
         div.className = 'product';
@@ -20,7 +20,7 @@ function makeprodutos(products) {
          <p>stars: ${stars}</p>
          <p class"lastPrice"> de R$ ${lastPrice}</p>
          <h2 class"price">Por R$ ${price}</h2>
-         <p>ou em ${quatity} de R$ ${value} `;
+         <p>ou em ${quantity} de R$ ${value} `;
         produtos.append(div);
     }
 }

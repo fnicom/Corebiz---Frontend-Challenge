@@ -398,13 +398,13 @@ body {
 .footer .container .info .corebiz {
   width: 76px;
   height: 18px;
-  background-image: url(image/logo-corebiz-footer.png);
+  background-image: url(/image/logo-corebiz-footer.png);
 }
 
 .footer .container .info .vtex {
   width: auto;
   height: 19px;
-  background-image: url(image/vtex.png);
+  background-image: url(/image/vtex.png);
 }
 
 .footer .container .info .button:first-child {
@@ -412,13 +412,13 @@ body {
 }
 
 .mail {
-  background-image: url(image/email.png);
+  background-image: url(/image/email.png);
   background-position: 10px 10px;
   background-repeat: no-repeat;
 }
 
 .talk {
-  background-image: url(image/fale-conosco.png);
+  background-image: url(/image/fale-conosco.png);
   background-position: 10px 15px;
   background-repeat: no-repeat;
 }
